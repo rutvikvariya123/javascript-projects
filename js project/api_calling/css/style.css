@@ -1,0 +1,114 @@
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width:1320px;
+    margin: 0 auto;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Header */
+header{
+    background-color: black;
+    padding: 30px;
+}
+
+header .logo h3{
+    color: white;
+    font-size:22px;
+}
+header .nav ul {
+    list-style: none;
+    display: flex;
+}
+
+header .nav ul li {
+    font-size: 18px;
+    padding: 0 25px;
+}
+
+header .nav ul li a {
+    text-decoration: none;
+    line-height: 24px;
+    color: white;
+}
+
+footer{
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+
+.heading {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+
+/* home page */
+
+/* main-section */
+
+.main-section {
+    margin: 50px 0px;
+    height: 485px;
+}
+
+.main-section .text{
+    font-size: 18px;
+}
+
+/* users page */
+
+.users{
+    margin:50px 0px;
+}
+
+.users .users-data {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 10px;
+    row-gap: 10px;
+}
+
+.datas {
+    border: 1px solid black;
+    padding: 3px;
+}
+
+
+/* user detail page */
+.userListItem{
+    margin:50px 0px;
+}
+
+.listitem{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 10px;
+    row-gap: 10px;
+}
+
+/* post detail page */
+
+.postDetail{
+    margin: 100px 0px;
+}
+
+.postDetail .postlistItem{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 10px;
+    row-gap: 10px;
+}
